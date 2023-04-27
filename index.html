@@ -4,13 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../LauchingPage/styles/style.css">
+    <link rel="stylesheet" href="/LauchingPage/styles/media.css">
+    <style>
+        @media screen and (max-width: 1200px){
+  
+  header{
+  flex-direction: column;
+}
+
+body {
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 38px;
+}
+form {
+    margin: 0 auto; 
+    width: 100%;
+}
+input {
+    align-self: center;
+}
+
+img {
+    display: none;
+}
+
+ul {
+    text-align: center;
+}
+  }
+    </style>
     <title>Landing Page</title>
 </head>
 <body>
     <header>
-        <div>
-            <h1></h1>
+        <div id="title">
+            <h1>Marketing</h1>
+            <h1>Criativo</h1>
         </div>
+
+        <ul>
+            <a href="#"><li>Início</li></a>
+            <a href="#"><li>Serviços</li></a>    
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Contato</li> </a>
+            <a href="#" id="Inscreva-se-btn"><li>Já tem uma conta?</li></a>
+        </ul>
     </header>
+    
+    <main>
+        <aside>
+            <h2><span>Inscreva-se agora</span></h2>
+            <h2>na Newslatter</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsum neque consequuntur sint, accusantium, dignissimos cum ratione doloremque fugit non, inventore perspiciatis provident. Odit deserunt accusantium fugiat sed at assumenda.</p>
+
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="submit" value="Enviar >">
+            </form>
+        </aside>
+        
+        <article>
+            <img src="../landing-page-tutorial-main/landing-page-tutorial-main/components/images/77d0a7c454e658833800528e748edbe9.png" alt="girl purple">
+        </article>
+    </main>
 </body>
 </html>
